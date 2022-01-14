@@ -1,16 +1,15 @@
 {
-    "name": "@reddisetgo/root",
-    "version": "0.0.1",
-    "private": true,
-    "workspaces": [
-        "packages/*",
-        "apps/*",
-        "services/*"
-    ],
-    "dependencies": {
-        "@babel/core": "^7.16.7",
-        "@babel/plugin-transform-runtime": "^7.16.8",
-        "@babel/preset-env": "^7.16.8",
-        "@babel/preset-react": "^7.16.7"
-    }
+  "name": "reddisetgo",
+  "version": "0.0.1",
+  "description": "A monorepo for smart contract DApp development",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redditech/reddisetgo.git"
+  },
+  "author": "Nissan Dookeran",
+  "license": "CC0 1.0 Universal",
+  "bugs": {
+    "url": "https://github.com/redditech/reddisetgo/issues"
+  },
+  "homepage": "https://github.com/redditech/reddisetgo#readme"
 }
