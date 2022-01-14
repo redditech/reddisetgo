@@ -1,5 +1,10 @@
 {
     "name": "@reddisetgo/root",
     "version": "0.0.1",
-    "private": true
+    "private": true,
+    "workspaces": [
+        "packages/*",
+        "apps/*",
+        "services/*"
+    ]
 }
