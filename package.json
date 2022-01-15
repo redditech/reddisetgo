@@ -11,5 +11,8 @@
   "bugs": {
     "url": "https://github.com/redditech/reddisetgo/issues"
   },
-  "homepage": "https://github.com/redditech/reddisetgo#readme"
+  "homepage": "https://github.com/redditech/reddisetgo#readme",
+  "workspaces": [
+    "packages/hardhat"
+  ]
 }
