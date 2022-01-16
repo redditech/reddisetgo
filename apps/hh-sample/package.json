@@ -37,5 +37,8 @@
   "scripts": {
     "build": "npx hardhat compile",
     "test": "npx hardhat test"
+  },
+  "dependencies": {
+    "present": "^1.0.0"
   }
 }

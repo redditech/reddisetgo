@@ -2,9 +2,12 @@
     "name": "reddisetgo-dt-sample",
     "version": "0.0.1",
     "description": "A dapptools sample app for a monorepo for smart contract DApp development",
-    "devDependencies": {},
     "scripts": {
+        "initialize": "dapp init",
         "build": "dapp build",
         "test": "dapp test"
+    },
+    "dependencies": {
+        "present": "^1.0.0"
     }
 }
