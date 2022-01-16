@@ -19,7 +19,7 @@
   "scripts": {
     "initialize": "npm install --workspaces --if present && npm run initialize --workspaces --if-present",
     "build": "npm run build --workspaces --if-present",
-    "test": "npm run test --workspaces --if-present",
+    "test": "CI=true npm run test --workspaces --if-present",
     "prepare": "husky install"
   },
   "devDependencies": {
