@@ -11,5 +11,19 @@
   "bugs": {
     "url": "https://github.com/redditech/reddisetgo/issues"
   },
-  "homepage": "https://github.com/redditech/reddisetgo#readme"
+  "homepage": "https://github.com/redditech/reddisetgo#readme",
+  "workspaces": [
+    "packages/*",
+    "apps/*",
+    "frontends/*",
+    "services/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "husky": "^7.0.4"
+  }
 }
