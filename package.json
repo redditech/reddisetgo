@@ -14,7 +14,8 @@
   "homepage": "https://github.com/redditech/reddisetgo#readme",
   "workspaces": [
     "apps/*",
-    "frontends/*"
+    "frontends/*",
+    "services/*"
   ],
   "scripts": {
     "initialize": "npm install --workspaces --if present && npm run initialize --workspaces --if-present",
