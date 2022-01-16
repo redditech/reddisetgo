@@ -1,7 +1,7 @@
 {
   "name": "reddisetgo",
   "version": "0.0.1",
-  "description": "A monorepo for smart contract DApp development",
+  "description": "A monorepo template for smart contract DApp development, intention is to be a public good for learning",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/redditech/reddisetgo.git"
@@ -13,10 +13,8 @@
   },
   "homepage": "https://github.com/redditech/reddisetgo#readme",
   "workspaces": [
-    "packages/*",
     "apps/*",
-    "frontends/*",
-    "services/*"
+    "frontends/*"
   ],
   "scripts": {
     "initialize": "npm install --workspaces --if present && npm run initialize --workspaces --if-present",
